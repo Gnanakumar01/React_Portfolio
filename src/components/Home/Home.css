@@ -1,0 +1,45 @@
+.home-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+
+/* home left side */
+.home-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px ;
+}
+#role{
+    border: 1.5px solid orangered;
+    border-radius: 20px;
+    width: 230px;
+    padding: 5px 10px;
+    color: orangered;
+    background-color: rgb(249, 214, 201);
+}
+.name{
+    color: orangered;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: grey;
+}
+.contact-me{
+    button{
+        border: 1.5px solid orangered;
+        padding: 5px 10px;
+        background-color: orangered;
+        color: white;
+        border-radius: 8px;
+        margin: 5px;
+    }
+}
+/* home right side */
+.profile-img{
+    width: 30vw;
+    border-radius: 50%;
+}

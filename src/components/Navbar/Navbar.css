@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-container{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 5px 0px 5px;
+}
+.brace{
+    color: orangered;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+}
+.resume-theme{
+    display: flex;
+    gap: 10px;
+    button{
+        border: 1.5px solid orangered;
+        padding: 8px 10px;
+        border-radius: 20px;
+        color: white;
+        background-color: orangered;
+        cursor: pointer;
+        &:hover{
+            background-color: white;
+            color: orangered;
+            border: 1.5px solid orangered;
+            border-radius: 20px;
+        }
+    }
+}

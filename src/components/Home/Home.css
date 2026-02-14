@@ -1,6 +1,6 @@
 .home-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 50px 0px;
 }
 
@@ -11,10 +11,13 @@
     gap: 30px;
     padding-top: 50px ;
 }
+.home-left h1{
+    font-size: 40px;
+}
 #role{
     border: 1.5px solid orangered;
     border-radius: 20px;
-    width: 230px;
+    width: 265px;
     padding: 5px 10px;
     color: orangered;
     background-color: rgb(249, 214, 201);
@@ -27,6 +30,7 @@
     flex-direction: column;
     gap: 3px;
     color: grey;
+    font-size: 15px;
 }
 .contact-me{
     button{
@@ -36,10 +40,14 @@
         color: white;
         border-radius: 8px;
         margin: 5px;
+        &:hover{
+            background-color: lightcoral;      
+        }
     }
 }
 /* home right side */
 .profile-img{
-    width: 30vw;
+    margin-top: 10px;
+    width: 34vw;
     border-radius: 50%;
 }

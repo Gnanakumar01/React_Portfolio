@@ -1,0 +1,39 @@
+.skills-container {
+    padding: 50px;
+    background: linear-gradient(135deg, #ffe5cc 0%, #ffffff 40%, #ffffff 60%, #ffe5cc 100%);
+
+    h1:hover {
+        cursor: pointer;
+        transform: translateY(-3px)
+    }
+}
+
+.skill-heading h1,
+#sub-head {
+    text-align: center;
+}
+
+.tech-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.tech-sub-container {
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+    &:hover {
+        transform: translateY(-10px) scale(1.03);
+    }
+}
+
+.tech-img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+}

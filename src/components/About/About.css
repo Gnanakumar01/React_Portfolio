@@ -10,8 +10,8 @@
 }
 
 .about-container{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     margin: 5%;
 }
@@ -20,6 +20,7 @@
     color: orangered;
     text-align: start;
     font-size: 28px;
+    padding-bottom: 20px;
 }
 .about-container h1 span{
     display: inline-block;
@@ -30,10 +31,13 @@
     margin-right: 5px;
     background-color: rgb(249, 218, 208);
 }
+.about-education{
+    margin-right: 60px;
+}
 .education{
-    border: 0.5px solid gray;
+    border: 0.5px solid rgb(225, 223, 223);
     border-radius: 8px;
-    padding: 5%;
+    padding: 20px 0px 20px 20px;
     margin-bottom: 2%;
 }
 .education div{
@@ -41,12 +45,40 @@
     color: gray;
     padding: 10px 0px;
 }
+.education h3{
+    display: inline-block;
+    width: auto;
+}
 .time{
     display: inline;
     font-size: small;
     border: 1px solid rgb(254, 111, 58);
     border-radius: 20px;
     padding: 5px 10px;
-    background-color: rgb(247, 232, 227);
+    background-color: rgb(254, 245, 233);
     color: orangered;
+}
+.location-ico{
+    font-size: 15px;
+    color: orangered;
+    padding-right: 5px;
+}
+
+.about-philosophy{
+
+ul{
+   border: 1px solid rgb(225, 223, 223);
+   border-radius: 8px;
+   padding: 10px;
+   background-color: rgb(254, 245, 233);
+li{
+    color: gray;
+    font-size: 15.5px;
+    padding-bottom: 6.5px;
+span{
+    color: rgb(245, 90, 33);
+    font-weight: 500;
+}
+}
+}
 }

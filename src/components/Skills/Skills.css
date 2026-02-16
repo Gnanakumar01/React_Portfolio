@@ -8,8 +8,17 @@
     }
 }
 
-.skill-heading h1,
-#sub-head {
+.skill-heading h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 45px;
+span{
+    color: orangered;
+}
+}
+#sub-head{
+    color: gray;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -24,16 +33,34 @@
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
     &:hover {
-        transform: translateY(-10px) scale(1.03);
+        transition-duration: 500ms;
+        transform: translateY(-5px);
     }
 }
-
+.tech-sub-container h3{
+    color: orangered;
+}
+.tech-sub-container p{
+    color: gray;
+    font-size: small;
+}
+.tech-logos-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
 .tech-img {
-    height: 50px;
-    width: 50px;
-    border: 1px solid white;
+    height: 11%;
+    width: 11%;
+    /* border: 1px solid rgb(232, 232, 232); */
     border-radius: 8px;
     background-color: white;
 }
+#html{
+    &:hover{
+        transition-duration: 700ms;
+        box-shadow: 0 0 15px orange;
+    }  
+}
+

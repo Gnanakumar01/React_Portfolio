@@ -2,8 +2,11 @@
     text-align: center;
     font-size: 45px;
     width: 100vw;
-    text-decoration: underline;
     margin-bottom: 50px;
+    &:hover{
+        cursor: pointer;
+        transform: translateY(-3px)
+    }
 }
 .about-heading span{
     color: orangered;

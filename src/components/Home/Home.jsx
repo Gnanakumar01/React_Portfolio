@@ -5,7 +5,7 @@ function Home() {
                 <div className="home-left">
                     <p id="role">Frontend/Python Full Stack <span>&lt;/&gt;</span></p>
 
-                    <h1>Hey! I'm <span className="name">Gnanakumar</span>,
+                    <h1>Hi I'm <span className="name">Gnanakumar</span>,
                         <p>a Full Stack | Developer </p></h1>
 
                     <div id="text">

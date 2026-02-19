@@ -26,6 +26,13 @@ function Project() {
                         <p>Developed a full-stack E-Commerce web application using Django that allows 
                             users to browse products, add items to cart, and securely place orders.</p>
                     </div>
+
+                      <div className="project-card">
+                        <img src="/images/projects/shop now.png" alt="" />
+                        <h2>E-commarce</h2>
+                        <p>Developed a full-stack E-Commerce web application using Django that allows 
+                            users to browse products, add items to cart, and securely place orders.</p>
+                    </div>
                 </div>
 
             </section>

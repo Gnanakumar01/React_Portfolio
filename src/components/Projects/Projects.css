@@ -37,7 +37,6 @@
     height: 50%;
     transition-duration: 700ms;
 &:hover{
-    transform: translate(1);
     transition-duration: 700ms;
     transform: scale(1.15);
     background-color: gray;

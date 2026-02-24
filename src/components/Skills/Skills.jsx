@@ -14,19 +14,19 @@ function Skills() {
                         </div>
                         <div className="tech-logos-container">
                             <img src="/images/skills/html.png"
-                                className="tech-img" alt="hml" id="html" /> 
+                                className="tech-img" alt="hml" id="html" title="Html"/> 
 
                             <img src="/images/skills/css-3.png" alt="css3"
-                                className="tech-img" id="css3" />
+                                className="tech-img" id="css3" title="CSS3" />
 
                             <img src="/images/skills/bootstrap.png" alt="Bootstrap"
-                                className="tech-img" id="bootstrap" />
+                                className="tech-img" id="bootstrap" title="Bootstrap" />
 
                             <img src="/images/skills/js.png" alt="JavaScript"
-                                className="tech-img" id="javascript" />
+                                className="tech-img" id="javascript" title="JavaScript"/>
 
                             <img src="/images/skills/react.svg" alt="React"
-                                className="tech-img" id="react" />
+                                className="tech-img" id="react" title="React"/>
                         </div>
                     </div>
 
@@ -37,9 +37,12 @@ function Skills() {
                         </div>
 
                         <div className="tech-logos-container">
-                            <img src="/images/skills/python.png" alt="Python" className="tech-img" id="python" />
-                            <img src="/images/skills/django.png" alt="Django" className="tech-img" id="django" />
-                            <img src="/images/skills/database.png" alt="SQL" className="tech-img" id="sql" />
+                            <img src="/images/skills/python.png" alt="Python" className="tech-img" 
+                            id="python" title="Python"/>
+                            <img src="/images/skills/django.png" alt="Django" 
+                            className="tech-img" id="django" title="Django" />
+                            <img src="/images/skills/database.png" alt="SQL" 
+                            className="tech-img" id="sql" title="SQL" />
                         </div>
                     </div>
 
@@ -50,9 +53,12 @@ function Skills() {
                         </div>
 
                         <div className="tech-logos-container">
-                            <img src="/images/skills/git.svg" alt="Git" className="tech-img" id="git" />
-                            <img src="/images/skills/github-original.svg" alt="GitHub" className="tech-img" id="github" />
-                            <img src="/images/skills/mysql.png" alt="Mysql" className="tech-img" id="mysql"/>
+                            <img src="/images/skills/git.svg" alt="Git" 
+                            className="tech-img" id="git" title="Git"/>
+                            <img src="/images/skills/github-original.svg" alt="GitHub" 
+                            className="tech-img" id="github" title="GitHub"/>
+                            <img src="/images/skills/mysql.png" alt="Mysql" 
+                            className="tech-img" id="mysql" title="Mysql"/>
                         </div>
                     </div>
 

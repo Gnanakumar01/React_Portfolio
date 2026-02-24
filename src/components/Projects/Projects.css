@@ -61,3 +61,6 @@
         background-color: #cc3700;
     }
 }
+body.dark .project-card h2{
+    color: white;
+}

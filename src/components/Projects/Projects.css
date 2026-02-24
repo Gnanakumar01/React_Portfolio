@@ -4,7 +4,7 @@
     font-size: 45px;
     color: orangered;
 &:hover{
-    transform: translateY(5px);
+    transform: translateY(-5px);
 }
 }
 .project-sub-container{
@@ -12,6 +12,10 @@
    grid-template-columns: repeat(4, 1fr);
    gap: 10px;
    padding: 20px;
+   height: 500px;
+}
+.project-sub-container p{
+    font-size: 15px;
 }
 .project-card{
     border: 1px solid rgb(198, 195, 195);
@@ -42,4 +46,18 @@
     background-color: gray;
     opacity: 1;
 }
+}
+.project-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-buttons-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: orangered;
+    color: whitesmoke;
+    &:hover{
+        background-color: #cc3700;
+    }
 }

@@ -1,22 +1,24 @@
 .skills-container {
     padding: 50px;
     background: linear-gradient(135deg, #ffe5cc 0%, #ffffff 40%, #ffffff 60%, #ffe5cc 100%);
-
-    h1:hover {
-        cursor: pointer;
-        transform: translateY(-3px)
-    }
 }
 
-.skill-heading h1{
+.skills-container h1:hover {
+    cursor: pointer;
+    transform: translateY(-3px)
+}
+
+.skill-heading h1 {
     text-align: center;
     padding-bottom: 30px;
     font-size: 45px;
-span{
-    color: orangered;
+
+    span {
+        color: orangered;
+    }
 }
-}
-#sub-head{
+
+#sub-head {
     color: gray;
     padding-bottom: 30px;
     text-align: center;
@@ -33,28 +35,34 @@ span{
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
     &:hover {
         transition-duration: 500ms;
         transform: translateY(-5px);
     }
 }
-.tech-sub-container h3{
+
+.tech-sub-container h3 {
     color: orangered;
     transition-duration: 1s;
-&:hover{
-    transition-duration: 700ms;
-    transform: translateX(5px);
+
+    &:hover {
+        transition-duration: 700ms;
+        transform: translateX(5px);
+    }
 }
-}
-.tech-sub-container p{
+
+.tech-sub-container p {
     color: gray;
     font-size: small;
 }
-.tech-logos-container{
+
+.tech-logos-container {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px;
 }
+
 .tech-img {
     height: 11%;
     width: 11%;
@@ -62,93 +70,121 @@ span{
     border-radius: 8px;
     background-color: white;
 }
-#html{
+
+#html {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px orange;
         transform: scale(1.2);
-    }  
+    }
 }
-#css3{
+
+#css3 {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px rgb(72, 206, 250);
         transform: scale(1.2);
-    }  
+    }
 }
-#bootstrap{
+
+#bootstrap {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px rgb(237, 114, 237);
         transform: scale(1.2);
-    }  
+    }
 }
-#javascript{
+
+#javascript {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px yellow;
         transform: scale(1.2);
-    }  
+    }
 }
-#react{
+
+#react {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px rgb(72, 206, 250);
         transform: scale(1.2);
-    }  
+    }
 }
-#python{
+
+#python {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px wheat;
         transform: scale(1.2);
-    }  
+    }
 }
-#django{
+
+#django {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px lightgreen;
         transform: scale(1.2);
-    }  
+    }
 }
-#sql{
+
+#sql {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px wheat;
         transform: scale(1.2);
-    }  
+    }
 }
-#git{
+
+#git {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px rgb(254, 126, 79);
         transform: scale(1.2);
-    }  
+    }
 }
-#github{
+
+#github {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px rgb(134, 132, 132);
         transform: scale(1.2);
-    }  
+    }
 }
-#mysql{
+
+#mysql {
     transition-duration: 300ms;
-    &:hover{
+
+    &:hover {
         transition-duration: 700ms;
         box-shadow: 0 0 15px grey;
         transform: scale(1.2);
-    }  
+    }
 }
 
-
+body.dark .skills-container {
+    background: linear-gradient(135deg,
+            #1a1a1a 0%,
+            #111 40%,
+            #111 60%,
+            #1a1a1a 100%);
+}

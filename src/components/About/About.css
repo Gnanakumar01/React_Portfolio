@@ -85,3 +85,7 @@ span{
 }
 }
 }
+
+body.dark .about-philosophy ul{
+    background-color: black;
+}

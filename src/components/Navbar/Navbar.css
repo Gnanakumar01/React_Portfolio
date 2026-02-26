@@ -59,10 +59,13 @@ body.dark .links li:hover {
 
 .links li {
     cursor: pointer;
-
+    color: black;
     &:hover {
         color: orangered;
     }
+}
+.links a{
+    text-decoration: none;
 }
 
 .resume-theme {
@@ -85,7 +88,11 @@ body.dark .links li:hover {
     font-size: 24px;
     cursor: pointer;
 }
+body.dark .links li{
+    color: white;
+}
 
+/* Responsive Design */
 @media (max-width: 768px) {
 
     .menu-icon {

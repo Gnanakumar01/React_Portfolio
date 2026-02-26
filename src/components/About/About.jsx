@@ -1,7 +1,7 @@
 function About() {
     return (
         <>
-            <h1 className="about-heading">About My <span>Journey</span></h1>
+            <h1 id="About" className="about-heading">About My <span>Journey</span></h1>
             <section className="about-container">
 
                 <div className="about-education">
@@ -10,7 +10,7 @@ function About() {
                     <span className="height"></span>
                     <div className="education">
                         <h3>Frontend Specialization & Modern Web  <p>Development</p></h3>
-                        <div><i class="bi bi-geo-alt location-ico"></i>Dedicated full-time effort to mastering modern technologies with <div style={{paddingLeft:"10px"}}>professionall coding standerds.</div> </div>
+                        <div><i class="bi bi-geo-alt location-ico"></i>Dedicated full-time effort to mastering modern technologies with <div style={{ paddingLeft: "10px" }}>professionall coding standerds.</div> </div>
                         <p className="time">2025 - Present</p>
                     </div>
 
@@ -19,7 +19,7 @@ function About() {
                     <div className="education">
                         <h3>Periyar University, Salem</h3>
                         <div><i class="bi bi-geo-alt location-ico"></i>Bachelor of Science in Computer Science &#40; B.Sc CS &#41;
-                        </div>                
+                        </div>
                         <p className="time">2022 - 2025</p>
                     </div>
 

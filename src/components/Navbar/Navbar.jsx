@@ -26,10 +26,11 @@ const Navbar = () => {
             </div>
 
             <ul className={`links ${isOpen ? "active" : ""}`}>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
+                <a href="#"><li>Home</li></a>
+                <a href="#About"><li>About</li></a>
+                <a href="#Skills"><li>Skills</li></a>
+                <a href="#Projects"><li>Projects</li></a>
+                <a href="#Contact"><li>Contact</li></a>
             </ul>
 
             <div className="resume-theme">

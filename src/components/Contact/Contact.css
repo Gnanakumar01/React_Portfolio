@@ -23,15 +23,18 @@
     padding: 2% 3% 7% 3%;
     height: 641px;
 }
-.input-container{
+
+.input-container {
     transition: transform 0.3s ease;
 }
-.input-container form{
-    border: 1px solid rgb(218, 222, 225);
+
+.input-container form {
+    border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 10px;
     padding: 5%;
 }
-form h2{
+
+form h2 {
     padding-bottom: 5%;
 }
 
@@ -40,23 +43,26 @@ form h2{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+
 .input-container input {
     width: 100%;
     padding: 2%;
     margin-bottom: 5%;
-    border: 1px solid rgb(218, 222, 225);
+    border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 8px;
     transition: transform 0.3s ease;
 }
+
 .input-container input:hover,
 .input-container textarea:hover,
 .input-container button:hover {
     border-color: orangered;
     transform: scale(1.02);
 }
+
 .input-container input:focus,
-.input-container textarea:focus{
-    outline:1.5px solid orangered;
+.input-container textarea:focus {
+    outline: 1.5px solid orangered;
     border: none;
 }
 
@@ -72,38 +78,44 @@ form h2{
 .input-container textarea {
     width: 100%;
     height: 150px;
-    border: 1px solid rgb(218, 222, 225);
+    border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 8px;
     padding: 2%;
     margin-bottom: 5%;
     transition: transform 0.3s ease;
 }
-body.dark .input-container input{
+
+body.dark .input-container input {
     background-color: black;
 }
-body.dark .input-container textarea{
+
+body.dark .input-container textarea {
     background-color: black;
 }
 
 /* Address Container */
-.sub-address-container{
+.sub-address-container {
     display: grid;
     gap: 10px;
 }
-.each-address{
+
+.each-address {
     display: flex;
     gap: 3%;
     padding: 10px;
 }
-.each-address h4{
+
+.each-address h4 {
     color: gray;
     font-weight: 400;
 }
-.each-address a{
+
+.each-address a {
     text-decoration: none;
     color: black;
 }
-.address-icons{
+
+.address-icons {
     display: flex;
     align-items: center;
     background-color: antiquewhite;
@@ -114,29 +126,34 @@ body.dark .input-container textarea{
     margin: 10px;
     transition: transform 0.3s ease;
 }
-.address-icons:hover{
+
+.address-icons:hover {
     transform: rotate(20deg) scale(1.1);
 }
-iframe{
+
+iframe {
     margin-top: 50px;
     height: 200px;
 }
-body.dark .each-address a{
+
+body.dark .each-address a {
     color: white;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .contact-info {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 50px;
-    height: 1200px;
-  }
-  .input-container{
-    height: 533px;
-  }
-  .address-container{
-    height: 550px;
-  }
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        height: 1200px;
+    }
+
+    .input-container {
+        height: 535px;
+    }
+
+    .address-container {
+        height: 550px;
+    }
 }

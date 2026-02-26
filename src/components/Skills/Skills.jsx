@@ -1,7 +1,7 @@
 function Skills() {
     return (
         <>
-            <section className="skills-container">
+            <section id="Skills" className="skills-container">
                 <div className="skill-heading">
                     <h1>Explore My <span>Skills</span></h1>
                     <p id="sub-head">Technologies that power my fronted developmebt toolkit</p>

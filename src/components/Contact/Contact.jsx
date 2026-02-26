@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <>
-            <div className="contact-container">
+            <div id="Contact" className="contact-container">
                 <div className="heading">
                     <h1>Get In Touch</h1>
                     <p>Let’s connect—feel free to reach out for collaborations,

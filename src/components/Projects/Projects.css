@@ -1,5 +1,5 @@
 .project-container h1{
-    padding: 50px;
+    padding-top: 80px;
     text-align: center;
     font-size: 45px;
     color: orangered;
@@ -18,7 +18,7 @@
     font-size: 15px;
 }
 .project-card{
-    border: 1px solid rgb(198, 195, 195);
+    border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 10px;
     /* height: 600px; */
 }

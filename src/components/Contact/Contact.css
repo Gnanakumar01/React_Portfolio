@@ -21,6 +21,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 4%;
     padding: 2% 3% 7% 3%;
+    height: 641px;
 }
 .input-container{
     transition: transform 0.3s ease;
@@ -80,9 +81,62 @@ form h2{
 body.dark .input-container input{
     background-color: black;
 }
+body.dark .input-container textarea{
+    background-color: black;
+}
 
 /* Address Container */
+.sub-address-container{
+    display: grid;
+    gap: 10px;
+}
 .each-address{
     display: flex;
-    gap: 2%;
+    gap: 3%;
+    padding: 10px;
+}
+.each-address h4{
+    color: gray;
+    font-weight: 400;
+}
+.each-address a{
+    text-decoration: none;
+    color: black;
+}
+.address-icons{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    color: orangered;
+    font-size: 150%;
+    padding: 3px 10px;
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.address-icons:hover{
+    transform: rotate(20deg) scale(1.1);
+}
+iframe{
+    margin-top: 50px;
+    height: 200px;
+}
+body.dark .each-address a{
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 50px;
+    height: 1200px;
+  }
+  .input-container{
+    height: 533px;
+  }
+  .address-container{
+    height: 550px;
+  }
 }

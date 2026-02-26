@@ -20,6 +20,7 @@
 .project-card{
     border: 1px solid rgb(198, 195, 195);
     border-radius: 10px;
+    /* height: 600px; */
 }
 .project-card:hover {
      box-shadow:
@@ -63,4 +64,18 @@
 }
 body.dark .project-card h2{
     color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-sub-container{
+    height: 950px;
+  }  
+  .project-sub-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .product-card{
+    height: 750px !important;
+  }
 }

@@ -21,9 +21,11 @@ function Contact() {
                     </div>
 
                     <div className="address-container">
-                        <div className="">
+                        <div className="sub-address-container">
                             <div className="each-address">
-                                <div><i class="bi bi-envelope"></i></div>
+                                <div className="address-icons">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
                                 <div className="email-container">
                                     <h4>EMAIL</h4>
                                     <a href="">sgnanakumar929@gmail.com</a>
@@ -31,7 +33,9 @@ function Contact() {
                             </div>
 
                             <div className="each-address">
-                                <div><i class="bi bi-telephone"></i></div>
+                                <div className="address-icons">
+                                    <i class="bi bi-telephone"></i>
+                                </div>
                                 <div className="phone-container">
                                     <h4>PHONE</h4>
                                     <a href="">+91-8098013644</a>
@@ -39,7 +43,9 @@ function Contact() {
                             </div>
 
                             <div className="each-address">
-                                <div><i class="bi bi-geo-alt"></i></div>
+                                <div className="address-icons">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
                                 <div className="email-container">
                                     <h4>LOCATION</h4>
                                     <p>BTM Layout, Bengaluru, Karnataka</p>
@@ -47,8 +53,14 @@ function Contact() {
                             </div>
                         </div>
 
-                        <div>
-                            this for map
+                        <div className="map">
+                            <iframe
+                                src="https://www.google.com/maps?q=Angondhalli&output=embed"
+                                width="100%"
+                                height="400"
+                                style={{ border: 0 }}
+                                loading="lazy"
+                            ></iframe>
                         </div>
                     </div>
                 </div>

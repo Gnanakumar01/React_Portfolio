@@ -188,3 +188,11 @@ body.dark .skills-container {
             #111 60%,
             #1a1a1a 100%);
 }
+
+/* Responsive Design */
+@media (max-width: 768px){
+    .tech-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

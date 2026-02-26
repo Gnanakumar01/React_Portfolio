@@ -55,7 +55,7 @@ function Contact() {
 
                         <div className="map">
                             <iframe
-                                src="https://www.google.com/maps?q=Angondhalli&output=embed"
+                                src="https://maps.google.com/maps?q=BTM+Layout+Bengaluru&output=embed"
                                 width="100%"
                                 height="400"
                                 style={{ border: 0 }}

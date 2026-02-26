@@ -51,3 +51,25 @@
     width: 34vw;
     border-radius: 50%;
 }
+
+/* Responsive Design */
+@media (max-width: 768px){
+    .home-container{
+        flex-direction: column;  
+    }
+    .home-right{
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+    .home-right img{
+        width: 350px;
+    }
+    .home-left{
+        order: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    
+}

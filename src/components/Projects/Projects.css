@@ -67,7 +67,7 @@ body.dark .project-card h2{
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 821px) {
   .project-sub-container{
     height: 950px;
   }  
@@ -78,4 +78,13 @@ body.dark .project-card h2{
   .product-card{
     height: 750px !important;
   }
+}
+
+@media (max-width:480px){
+    .project-sub-container{
+        height: 1800px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
 }

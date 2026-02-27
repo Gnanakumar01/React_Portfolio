@@ -1,37 +1,32 @@
+/* Skills sections style */
+
 .skills-container {
     padding: 50px 30px 30px 30px;
     background: linear-gradient(135deg, #ffe5cc 0%, #ffffff 40%, #ffffff 60%, #ffe5cc 100%);
 }
-
 .skills-container h1:hover {
     cursor: pointer;
     transform: translateY(-3px)
 }
-
 .skill-heading h1 {
     text-align: center;
     padding: 30px 0px;
     font-size: 45px;
-
-
     span {
         color: orangered;
     }
 }
-
 #sub-head {
     color: gray;
     padding-bottom: 30px;
     text-align: center;
 }
-
 .tech-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 30px;
 }
-
 .tech-sub-container {
     /* margin: 20px; */
     border: 1px solid rgba(128, 128, 128, 0.3);
@@ -44,7 +39,6 @@
         transform: translateY(-5px);
     }
 }
-
 .tech-sub-container h3 {
     color: orangered;
     transition-duration: 1s;
@@ -54,18 +48,15 @@
         transform: translateX(5px);
     }
 }
-
 .tech-sub-container p {
     color: gray;
     font-size: small;
 }
-
 .tech-logos-container {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0px;
 }
-
 .tech-img {
     height: 11%;
     width: 11%;
@@ -73,7 +64,6 @@
     border-radius: 8px;
     background-color: white;
 }
-
 #html {
     transition-duration: 300ms;
 
@@ -83,7 +73,6 @@
         transform: scale(1.2);
     }
 }
-
 #css3 {
     transition-duration: 300ms;
 
@@ -93,7 +82,6 @@
         transform: scale(1.2);
     }
 }
-
 #bootstrap {
     transition-duration: 300ms;
 
@@ -103,7 +91,6 @@
         transform: scale(1.2);
     }
 }
-
 #javascript {
     transition-duration: 300ms;
 
@@ -113,7 +100,6 @@
         transform: scale(1.2);
     }
 }
-
 #react {
     transition-duration: 300ms;
 
@@ -123,7 +109,6 @@
         transform: scale(1.2);
     }
 }
-
 #python {
     transition-duration: 300ms;
 
@@ -133,7 +118,6 @@
         transform: scale(1.2);
     }
 }
-
 #django {
     transition-duration: 300ms;
 
@@ -143,7 +127,6 @@
         transform: scale(1.2);
     }
 }
-
 #sql {
     transition-duration: 300ms;
 
@@ -153,7 +136,6 @@
         transform: scale(1.2);
     }
 }
-
 #git {
     transition-duration: 300ms;
 
@@ -163,7 +145,6 @@
         transform: scale(1.2);
     }
 }
-
 #github {
     transition-duration: 300ms;
 
@@ -173,7 +154,6 @@
         transform: scale(1.2);
     }
 }
-
 #mysql {
     transition-duration: 300ms;
 
@@ -183,7 +163,6 @@
         transform: scale(1.2);
     }
 }
-
 body.dark .skills-container {
     background: linear-gradient(135deg,
             #1a1a1a 0%,
@@ -193,9 +172,13 @@ body.dark .skills-container {
 }
 
 /* Responsive Design */
-@media (max-width: 768px){
-    .tech-container{
+@media (max-width: 768px) {
+    .tech-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+@media (max-width:376px){
+    
 }

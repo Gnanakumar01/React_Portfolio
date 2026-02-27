@@ -42,7 +42,6 @@
     border-radius: 8px;
     padding: 20px 0px 20px 20px;
     margin-bottom: 2%;
-    opacity: 1;
 }
 .education div{
     font-size: small;
@@ -91,12 +90,15 @@ body.dark .about-philosophy ul{
     background-color: hsla(0, 0%, 0%, 0.3);
 }
 /* Responsive Desing */
-@media (max-width:768px){
+@media (max-width:1025px){
     .about-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
     .about-heading{
         padding-top: 0px;
+    }
+    .about-education{
+        width: 100%;
     }
 }

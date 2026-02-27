@@ -91,3 +91,21 @@ body.dark .bi-github{
 body.dark .footer-center div a{
     color: white;
 }
+/* Responsive design */
+@media (max-width:768px){
+    .footer-container{
+        padding: 20px;
+    }
+    .footer-top{
+        display: block;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .footer-bottom{
+        display: block;
+        text-align: center;
+    }
+    .footer-bottom p{
+        padding-bottom: 20px;
+    }
+}

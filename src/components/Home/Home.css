@@ -89,7 +89,9 @@ body.dark .image-title h4{
 }
 
 /* Responsive Design */
-@media (max-width: 768px){
+
+/* Tab Design */
+@media (max-width: 912px){
     .home-container{
         flex-direction: column;  
     }
@@ -101,6 +103,7 @@ body.dark .image-title h4{
     .home-right .profile-img{
         width: 450px;
         height: 450px;
+        margin: 20px 0px;
     }
     .home-left{
         order: 1;
@@ -108,10 +111,45 @@ body.dark .image-title h4{
         align-items: center;
     }  
     .image-title{
-        height: 220px;
+        height: 218px;
     } 
     .hai-img{
         height: 80px;
         width: 80px !important;
+    }
+}
+
+/* Ṃobile Design */
+@media (max-width: 480px){
+    .profile-container{
+        height: 480px;
+    }
+    .profile-img{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .image-title{
+        top: 60%;
+        left: 52.5%;
+        height: 188px;
+        width: 180px;
+        font-size: small;
+    }
+    .hai-img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .home-left{
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+/* ipad pro design */
+@media (max-width:1024px){
+    .profile-img{
+        height: 435px !important;
+        width: 435px !important;
     }
 }

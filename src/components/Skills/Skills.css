@@ -1,5 +1,5 @@
 .skills-container {
-    padding: 50px;
+    padding: 50px 30px 30px 30px;
     background: linear-gradient(135deg, #ffe5cc 0%, #ffffff 40%, #ffffff 60%, #ffe5cc 100%);
 }
 
@@ -29,10 +29,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    padding: 30px;
 }
 
 .tech-sub-container {
-    margin-top: 10px;
+    /* margin: 20px; */
     border: 1px solid rgba(128, 128, 128, 0.3);
     border-radius: 20px;
     padding: 10px;

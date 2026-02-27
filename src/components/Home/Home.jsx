@@ -23,7 +23,17 @@ function Home() {
                 </div>
 
                 <div className="home-right">
-                    <img className="profile-img" src="/images/home/profile.png" alt="Gnanakumar" />
+                    <div className="profile-container">
+                        <img className="profile-img" src="/images/home/profile.png" alt="Gnanakumar" />
+
+                        <div className="image-title">
+                            <p>
+                                <img className="hai-img" src="/images/home/wave.png" alt="Hai Image" width="100px" />
+                            </p>
+                            <h4>Hi, I'm Gnanakumar a <span>Frontend Developer.</span></h4>
+                            <p>Welcome to my portfolio. I'd love to hear your feedback and ideas!</p>
+                        </div>
+                    </div>
                 </div>
 
             </section>

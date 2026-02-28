@@ -12,8 +12,8 @@ function Project() {
                         <p>Developed a responsive Currency Converter application using React.js that allows users to
                              convert amounts between different international currencies in real time.</p>
                         <div className="project-buttons-container">
-                            <a href=""><button>Live Link</button></a>
-                            <a href=""><button>GitHub</button></a>
+                            <a href="https://currency-converter-virid-mu.vercel.app/" target="_blank"><button>Live Link</button></a>
+                            <a href="https://github.com/Gnanakumar01/Currency_Converter" target="_blank"><button>GitHub</button></a>
                         </div>
                     </div>
 
@@ -23,8 +23,8 @@ function Project() {
                         <p>Developed a responsive Movie Explorer web application using React.js that 
                             allows users to browse, search, and view details of movies in real time.</p>
                         <div className="project-buttons-container">
-                            <a href=""><button>Live Link</button></a>
-                            <a href=""><button>GitHub</button></a>
+                            <a href="https://movie-ggq8.vercel.app/" target="_blank"><button>Live Link</button></a>
+                            <a href="https://github.com/Gnanakumar01/movie" target="_blank"><button>GitHub</button></a>
                         </div>
                     </div>
 
@@ -34,21 +34,21 @@ function Project() {
                         <p>Developed a full-stack E-Commerce web application using Django that allows 
                             users to browse products, add items to cart, and securely place orders.</p>
                         <div className="project-buttons-container">
-                            <a href=""><button>Live Link</button></a>
-                            <a href=""><button>GitHub</button></a>
+                            <a href="https://e-commerce-94xv.vercel.app/" target="_blank"><button>Live Link</button></a>
+                            <a href="https://github.com/Gnanakumar01/E_commerce" target="_blank"><button>GitHub</button></a>
                         </div>
                     </div>
 
-                      <div className="project-card">
+                      {/* <div className="project-card">
                         <img src="/images/projects/shop now.png" alt="" />
-                        <h2>E-commarce</h2>
+                        <h2>Instagram Clone</h2>
                         <p>Developed a full-stack E-Commerce web application using Django that allows 
                             users to browse products, add items to cart, and securely place orders.</p>
                         <div className="project-buttons-container">
                             <a href=""><button>Live Link</button></a>
                             <a href=""><button>GitHub</button></a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
             </section>

@@ -28,7 +28,7 @@ function Contact() {
                                 </div>
                                 <div className="email-container">
                                     <h4>EMAIL</h4>
-                                    <a href="">sgnanakumar929@gmail.com</a>
+                                    <a href="mailto:sgnanakumar929@gmail.com">sgnanakumar929@gmail.com</a>
                                 </div>
                             </div>
 
@@ -38,7 +38,7 @@ function Contact() {
                                 </div>
                                 <div className="phone-container">
                                     <h4>PHONE</h4>
-                                    <a href="">+91-8098013644</a>
+                                    <a href="tel:+918098013644">+91-8098013644</a>
                                 </div>
                             </div>
 

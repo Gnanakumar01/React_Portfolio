@@ -13,20 +13,20 @@ function Footer() {
                         <p>Let's stand connected I post project, design exprements</p>
                         <div>
 
-                            <a href=""><i class="bi bi-whatsapp"></i>
+                            <a href="https://wa.me/918098013644?text=Hi%20I%20want%20to%20connect"><i class="bi bi-whatsapp"></i>
                                 <span>+91 8098013644</span>
                             </a>
-                            <a href=""><i class="bi bi-linkedin"></i>
-                                <span>Gnanakumars</span>
+                            <a href="https://www.linkedin.com/in/gnanakumar18/"><i class="bi bi-linkedin"></i>
+                                <span>Gnanakumar18</span>
                             </a>
-                            <a href=""><i class="bi bi-github"></i>
+                            <a href="https://github.com/Gnanakumar01"><i class="bi bi-github"></i>
                                 <span>Gnanakumar01</span></a>
                         </div>
                     </div>
 
                     <div className="footer-right">
                         <p>Open to freelance, consulting, or just a tech chat over</p>
-                        <button>Start a conversation<i class="bi bi-arrow-right"></i></button>
+                        <a href="https://www.linkedin.com/in/gnanakumar18/"><button>Start a conversation<i class="bi bi-arrow-right"></i></button></a>
                     </div>
                 </div>
 

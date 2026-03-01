@@ -16,8 +16,8 @@ function Home() {
                     </div>
 
                     <div className="contact-me">
-                        <button>Check portfolio</button>
-                        <button>Contact Me</button>
+                        <a href="#Projects"><button>Check portfolio</button></a>
+                        <a href="#Contact"><button>Contact Me</button></a>
                     </div>
 
                 </div>

@@ -77,10 +77,13 @@ body.dark .links li:hover {
 .resume-theme button {
     padding: 6px 12px;
     cursor: pointer;
-    background-color: orangered;
+    background-color: rgb(248, 104, 52);
     border: none;
     color: white;
     border-radius: 8px;
+}
+.resume-theme button:hover{
+    background-color: orangered;
 }
 
 .menu-icon {

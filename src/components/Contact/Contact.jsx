@@ -12,10 +12,10 @@ function Contact() {
                     <div className="input-container">
                         <form>
                             <h2>Send a Message</h2>
-                            <input type="text" placeholder="Your Name" />
-                            <input type="email" placeholder="Your Email" />
-                            <input type="text" placeholder="Subject" />
-                            <textarea placeholder="Your Message"></textarea>
+                            <input type="text" placeholder="Your Name" required />
+                            <input type="email" placeholder="Your Email" required />
+                            <input type="text" placeholder="Subject" required/>
+                            <textarea placeholder="Your Message" required></textarea>
                             <button>Send Message <i class="bi bi-arrow-right"></i></button>
                         </form>
                     </div>

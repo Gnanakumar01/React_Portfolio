@@ -1,5 +1,5 @@
 .contact-container {
-    padding-top: 7%;
+    padding-top: 6%;
 }
 
 .heading {
@@ -157,19 +157,28 @@ body.dark .each-address a {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
-        height: 1200px;
+        height: 1250px;
         padding: 15px;
     }
 
     .input-container {
-        height: 540px;
+        height: 600px;
         margin: 10px;
     }
     .input-container form{
-        height: 540px;
+        height: 600px;
     }
 
     .address-container {
         height: 550px;
+    }
+}
+
+@media (max-width:430px){
+    .contact-info{
+        height: 1100px;
+    }
+    .input-container, .input-container form{
+        height: 450px;
     }
 }

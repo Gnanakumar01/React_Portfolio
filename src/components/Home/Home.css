@@ -34,14 +34,14 @@
 }
 .contact-me{
     button{
-        border: 1.5px solid orangered;
+        border: none;
         padding: 5px 10px;
-        background-color: orangered;
+        background-color: rgb(248, 104, 52);
         color: white;
         border-radius: 8px;
         margin: 5px;
         &:hover{
-            background-color: lightcoral;      
+            background-color: orangered;      
         }
     }
 }
@@ -90,6 +90,34 @@ body.dark .image-title h4{
 
 /* Responsive Design */
 
+/* Ṃobile Design */
+@media screen and (max-width: 430px){
+    .profile-container{
+        height: 480px;
+    }
+    .home-right .profile-img{
+        width: 350px !important;
+        height: 350px !important;
+    }
+    .image-title{
+        top: 50%;
+        left: 52.5%;
+        height: 170px;
+        width: 180px;
+        font-size: small;
+    }
+    .hai-img{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .home-container .home-left{
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+
 /* Tab Design */
 @media (max-width: 912px){
     .home-container{
@@ -116,33 +144,6 @@ body.dark .image-title h4{
     .hai-img{
         height: 80px;
         width: 80px !important;
-    }
-}
-
-/* Ṃobile Design */
-@media (max-width: 480px){
-    .profile-container{
-        height: 480px;
-    }
-    .profile-img{
-        width: 250px !important;
-        height: 250px !important;
-    }
-    .image-title{
-        top: 60%;
-        left: 52.5%;
-        height: 188px;
-        width: 180px;
-        font-size: small;
-    }
-    .hai-img{
-        width: 50px !important;
-        height: 50px !important;
-    }
-    .home-left{
-        text-align: center;
-        padding-top: 0px;
-        padding-bottom: 50px;
     }
 }
 

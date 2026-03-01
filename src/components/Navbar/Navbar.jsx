@@ -34,7 +34,8 @@ const Navbar = () => {
             </ul>
 
             <div className="resume-theme">
-                <button>
+            
+                <button onClick={() => window.open("/public/Gnanakumar_Resume1.pdf", "_blank")}>
                     Resume <i className="bi bi-download"></i>
                 </button>
                 <p onClick={() => setDarkMode(!darkMode)} style={{ cursor: "pointer" }}>

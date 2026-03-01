@@ -31,17 +31,16 @@ const Navbar = () => {
                 <a href="#Skills"><li>Skills</li></a>
                 <a href="#Projects"><li>Projects</li></a>
                 <a href="#Contact"><li>Contact</li></a>
-            </ul>
+                <div className="resume-theme">
 
-            <div className="resume-theme">
-            
-                <button onClick={() => window.open("/public/Gnanakumar_Resume1.pdf", "_blank")}>
-                    Resume <i className="bi bi-download"></i>
-                </button>
-                <p onClick={() => setDarkMode(!darkMode)} style={{ cursor: "pointer" }}>
-                    <i className={darkMode ? "bi bi-sun-fill" : "bi bi-moon-fill"}></i>
-                </p>
-            </div>
+                    <button onClick={() => window.open("/public/Gnanakumar_Resume1.pdf", "_blank")}>
+                        Resume <i className="bi bi-download"></i>
+                    </button>
+                    <p onClick={() => setDarkMode(!darkMode)} style={{ cursor: "pointer" }}>
+                        <i className={darkMode ? "bi bi-sun-fill" : "bi bi-moon-fill"}></i>
+                    </p>
+                </div>
+            </ul>
         </div>
     );
 };
